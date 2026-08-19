@@ -7,6 +7,18 @@ Este repositorio actúa como **repositorio base** (documentación, gobernanza, e
 
 ## 
 
+## [2.2.1] - 2026-08
+### Added Ckan
+- Humanización de los errores/advertencias de federación usando SHACL DCAT-AP-ES. 
+- Asumir formato rdf/xml en el federador si lo que se recibe es text/plain.
+- Registrar el archivo RDF que falló en una tarea.
+
+### Changed CKAN
+- Envío de datos GA/GTM tras aceptación de cookies.
+
+### Changed Drupal
+- Mejora de rendimiento en la generación del sitemap.
+
 ## [2.2.0] - 2026-06
 ### Added Drupal
 - Módulo custom dge_custom_scheduler para la gestión programada de contenidos.
